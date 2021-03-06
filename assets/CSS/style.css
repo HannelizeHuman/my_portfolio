@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    /*Font-family and Font size*/
+    background-color: #fff;
+    color: #2F173C;
+}
+
