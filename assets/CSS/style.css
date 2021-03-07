@@ -1,16 +1,69 @@
+/* Iniversal Selecctor*/
 *{
     margin:0;
     padding: 0;
 }
 
+/* Element Selectors*/
 body {
     position: relative;
-    /*Font-family and Font size*/
+    font-family: "Roboto", "Open Sans";
+    font-size: 16px;
     background-color: #fff;
     color: #2F173C;
 }
+
+h1 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px o;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+a {
+    text-decoration: none;
+    color: #E9DCC7;
+}
+  
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #2F173C;
+}
+
+
+/*figure {
+    margin-bottom: 40px;
+}*/
+
 
 img {
     display: block;
     margin: 20px auto;
   }
+
+  /* Class Selectors */
+.text-center {
+    text-align: center;
+  }
+  
+.text-right {
+    text-align: right;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
