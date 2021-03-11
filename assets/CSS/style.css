@@ -127,3 +127,119 @@ html {
 
 /* About section End*/
 
+/*Work Section*/
+.work {
+    flex-direction: column;
+    min-height: 60vh;
+    padding: 10rem 5rem;
+}
+
+.work .work-header {
+    width: 100%;
+    text-align: center;
+}
+
+.work .work-header .work-header-heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2F173C;
+}
+
+.work .work-header .work-header-description {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 20px;
+}
+
+.work .work-info {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.work .work-info .work {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    transition: .3s ease transform;
+    margin: 5px;
+}
+
+.work .work-info .work .work-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: .3s ease transform;
+    display: block;
+}
+
+.work .work-info .work .work-card .work-front,
+.work .work-info .work .work-card .work-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7be3f3;
+    padding: 10px;
+}
+
+.work .work-info .work .work-card .work-back {
+    transform: rotateY(180deg);
+}
+
+.work .work-info .work .work-card .work-front i {
+    font-size: 4rem;
+    color: #2F173C;
+    margin-bottom: 10px;
+}
+
+.work .work-info .work .work-card .work-front .work-front-heading,
+.work .work-info .work .work-card .work-back .work-back-heading {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.work .work-info .work:hover .work-card {
+    transform: rotateY(180deg);
+}
+
+.work .work-info .work .work-card .work-back .work-back-description {
+     font-size: 1.3rem;
+     margin-top: 10px;
+     text-align: center;
+}
+
+/*.work .work-info .work:nth-child(1) .work-card .work-front {
+     background-image: url(.assets/.Images/.art_webpage.png);
+     background-size: cover;
+     position: relative;
+     color: #fff;
+}
+
+.work .work-info .work:nth-child(1) .work-card .work-front::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+.work .work-info .work:nth-child(1) .work-card .work-front i {
+    color: #fff;
+}*/
+
+/*Work Section End*/
